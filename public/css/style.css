@@ -1,0 +1,131 @@
+.form-add-product input{
+    margin-bottom: 10px;
+}
+.product-rate{
+    width:20px;
+    height: 20px;
+}
+.product .product-image{
+    width:99%;
+    height: 99%;
+    object-fit: cover;
+}
+.product:hover{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product{
+    border: 1px solid #ced4da;
+    padding: 5px;
+    color: #28a745;
+    cursor: pointer;
+}
+.product-name{
+    color: #000;
+}
+.product a{
+    display: flex;
+    justify-content: center;
+}
+.product .buy{
+    background-color: white;
+    color: #28a745;
+    width: 100%;
+}
+.product .buy:hover{
+    background-color:#28a745;
+    color: white;
+}
+.products .product-image{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: 1px solid #28a745;
+    margin-bottom: -100px;
+}
+.coupon{
+    display: inline-block;
+}
+.title{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    min-height: 1px;
+}
+.coupon .coupon-label{
+    overflow: hidden !important;
+    display: block;
+}
+.coupon .ticket, .category{
+    display: inline-block;
+    font-size: 14px;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #28a745;
+    cursor: pointer;
+    margin: 2px;
+    padding-top: 5px;
+    text-align: center;
+}
+.ticket:hover, .category:hover{
+    background-color: #28a745;
+    color: #fff;
+}
+.address, .fee a{
+    text-decoration: underline;
+    color: #28a745;
+}
+.title{
+    width: 130px;
+}
+.category{
+    width: 110px;
+}
+.quatity{
+    width: 160px;
+}
+.quatity span.btn-sub,span.btn-add{
+    border: 1px solid #ced4da;
+}
+.quatity span.btn-sub:hover,span.btn-add:hover{
+    background-color: #28a745;
+    color: #fff;
+}
+.quatity input{
+    height: 40px;
+}
+.button-group .add-cart{
+    background-color: #fff;
+    border-color: #10723A;
+    color: #373737;
+    margin-right: 10px;
+    border-radius: 0;
+}
+.button-group .add-cart:hover{
+    background-color: #28a745;
+    color: #fff;
+}
+.button-group button{
+    font-weight: 500;
+}
+.item{
+    margin-top: 20px;
+}
+.carousel .btn{
+    border-top: 1px solid #ced4da;
+    color: #000;
+}
+.tab-item.active{
+    background-color: #28a745;
+    color: #fff
+}
+.tab-item{
+    cursor: pointer;
+}
+.product-infor .content{
+    margin: 10px 0;
+}
+.container-infor{
+    border: 1px solid #ced4da;
+}
