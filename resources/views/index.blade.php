@@ -20,7 +20,6 @@
             <span class="product-price">{{number_format($product->price)}}</span> <br>
             <button class="btn btn-success buy">Thêm vào giỏ</button>
         </div>
-            
     </div>
     @endforeach
 </div>

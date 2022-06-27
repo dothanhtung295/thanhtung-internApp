@@ -32,7 +32,6 @@ class mycontroller extends Controller
         $new_products->save();
         return redirect('/');
     }
-
     public function detailProduct($id){
         $product = Products::find($id);
         return view('detail-product',compact('product'));

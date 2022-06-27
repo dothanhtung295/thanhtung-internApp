@@ -18,3 +18,4 @@ Route::get('/detail-product/{id}','mycontroller@detailProduct');
 Route::get('/edit-product/{id}','mycontroller@editProduct');
 Route::get('/delete-product/{id}','mycontroller@deleteProduct');
 
+
